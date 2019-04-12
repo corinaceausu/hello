@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 int main()
-{ printf("Hello");
+{char v[30];
+scanf("%s",v);
+ printf("Hello %s\n ",v);
 return 0;
 }
